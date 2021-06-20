@@ -61,6 +61,13 @@ window.beats = [];
             ? find.drummer
             : defaultBeat.drummer;
 
+          document
+            .getElementById("image")
+            .style.setProperty(
+              "background-image",
+              `url("https://funklet.com/images/${find.image}")`
+            );
+
           document.getElementById("machine_1").src = find.queryString
             ? [baseUrl, "?", find.queryString].join("")
             : baseUrl;
@@ -70,6 +77,9 @@ window.beats = [];
             : funkletUrl;
         } else {
           document.getElementById("drummer_1").innerText = defaultBeat.drummer;
+          document
+            .getElementById("image")
+            .style.removeProperty("background-image");
           document.getElementById("machine_1").src = baseUrl;
           document.getElementById("funklet_1").href = funkletUrl;
         }

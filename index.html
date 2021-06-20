@@ -8,23 +8,34 @@
     <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <h1 id="drummer_1">IT'S THE FUNKLET!</h1>
+    <div class="header-container">
+      <div class="float-child-lhs">
+        <h1 id="drummer_1">IT'S THE FUNKLET!</h1>
+
+        <p>
+          dive into the original
+          <a id="funklet_1" href="https://funklet.com/">funklet</a>
+        </p>
+      </div>
+
+      <div class="float-child-rhs">
+        <div id="image-container">
+          <div id="image-container-width">
+            <div id="image" style="background-image: none;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <select id="beat_1" class="header">
       <option value="">-- clean slate --</option>
     </select>
 
-    <p>
-      dive into the original
-      <a id="funklet_1" href="https://funklet.com/">funklet</a>
-    </p>
-    <p>
-      <iframe
-        id="machine_1"
-        src="https://machine.funklet.com/funklet.html"
-      ></iframe>
+    <iframe
+      id="machine_1"
+      src="https://machine.funklet.com/funklet.html"
+    ></iframe>
 
-      <script src="src/index.js"></script>
-    </p>
+    <script src="src/index.js"></script>
   </body>
 </html>
