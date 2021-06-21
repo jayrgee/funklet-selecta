@@ -30,7 +30,7 @@ body {
 }
 
 #image-container-width {
-  width: 490px;
+  width: 300px;
   margin: auto auto;
   position: relative;
 }
@@ -40,7 +40,7 @@ body {
   height: 120px;
   border-radius: 120px;
   position: absolute;
-  top: 25px;
+  top: 20px;
   right: 0px;
   background-size: 100%;
   background-color: #ddd;
@@ -48,7 +48,7 @@ body {
 }
 
 #image:hover {
-  box-shadow: 0 0 15px red;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.7);
   cursor: pointer;
 }
 
@@ -79,6 +79,7 @@ h1 {
 }
 
 select {
+  margin-top: 10px;
   text-align-last: center;
   font-weight: bold;
   font-size: 31px;
