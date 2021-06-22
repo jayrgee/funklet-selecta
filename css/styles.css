@@ -80,6 +80,7 @@ h1 {
 h2 {
   font-size: 28px;
   margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .select-container {
@@ -87,7 +88,7 @@ h2 {
 }
 
 select {
-  margin-top: 10px;
+  margin-top: 20px;
   min-width: 55%;
   text-align-last: center;
   font-weight: bold;
