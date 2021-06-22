@@ -88,6 +88,7 @@ h2 {
 
 select {
   margin-top: 10px;
+  min-width: 55%;
   text-align-last: center;
   font-weight: bold;
   font-size: 31px;
