@@ -25,7 +25,8 @@ window.beats = [];
 
       const defaultBeat = {
         id: "",
-        drummer: "It's the Funklet!"
+        drummer: "It's the Funklet!",
+        year: "&nbsp;"
       };
 
       const beatsByDrummer = groupByDrummer(beats);
@@ -61,6 +62,10 @@ window.beats = [];
             ? find.drummer
             : defaultBeat.drummer;
 
+          document.getElementById("year_1").innerText = find.year
+            ? find.year
+            : defaultBeat.year;
+
           document
             .getElementById("image")
             .style.setProperty(
@@ -77,6 +82,7 @@ window.beats = [];
             : funkletUrl;
         } else {
           document.getElementById("drummer_1").innerText = defaultBeat.drummer;
+          document.getElementById("year_1").innerHTML = "&nbsp;";
           document
             .getElementById("image")
             .style.removeProperty("background-image");
