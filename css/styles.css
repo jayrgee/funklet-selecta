@@ -94,8 +94,13 @@ select {
   font-weight: bold;
   font-size: 31px;
   border-style: dotted;
+  outline: 2px;
 }
 
-select:focus-visible {
-  border-style: dotted;
+select:focus,
+select:hover {
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(255, 0, 0, 0.5);
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.7);
 }
