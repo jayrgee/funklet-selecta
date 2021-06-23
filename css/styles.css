@@ -94,6 +94,7 @@ select {
   font-weight: bold;
   font-size: 31px;
   border-style: dotted;
+  border-radius: 10px;
   outline: 2px;
 }
 
