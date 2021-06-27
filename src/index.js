@@ -12,7 +12,7 @@ const groupByDrummer = groupBy("drummer");
 window.beats = [];
 
 ((beats) => {
-  fetch("data/beats.json")
+  fetch("beats.json")
     .then((response) => response.json())
     .then((data) => {
       //beats = data;
