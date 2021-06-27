@@ -1,5 +1,5 @@
 {
-  "name": "funklet selecta",
+  "name": "funklet-selecta",
   "version": "1.0.0",
   "description": "select the funklet you want!",
   "main": "index.html",
@@ -17,7 +17,10 @@
   "resolutions": {
     "@babel/preset-env": "7.13.8"
   },
-  "keywords": ["javascript", "funklet"],
+  "keywords": [
+    "javascript",
+    "funklet"
+  ],
   "staticFiles": {
     "staticPath": "beats.json"
   }
